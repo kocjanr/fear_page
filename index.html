@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<title>Fear</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://00e9e64bac95993003be290c7458dfed942edc3835c6e16ace-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/style.css?qk=AD5uMEteh4UMew4O1LDjiz0ZtFHOBRk4dGYxL5XP_QGKhB9r5saEk3pnszmhotD2poeeB2jUlU7KHd3ZBXyUcUeNDBGPKQuukAbdm2ZB-9D08Eal3FnyGz7WzdiEmT7LCxotdf79VlG447xVUVM5NOhJEIBRtjL7NoOBj6pbmpg56uLnMOSOe6dOC-cmrnNMLa7rneuHCvRQUIpAYqM0AU6i32EmCGs5cYm8ndt8FlrIsCWeYzx-yA9HKembVdTFm8bvYbhOlTvSpUbVWP5D6tM9DieR_BmMT3UB4adTQBih5DNVKiaZvcu07j4TDZY_qz7O8-0Q_WIBoPHEPkR29bFyU3OYZf-Fyamfzi9gPzewoxlGCT65InffKMxKNc4dKhD53LTSVlN8LL7j_XpFF9_1fP3BBRm0hPIx3HSeezJOnmpERrhs8GwL_F9WVh83-AMGg-lzxDVmgfEll3HFUQe1vnQ7zEcEe3q8s0HLghz9oGHf6ZGEPceB1OtZl4kz70y4WF-KAgwCW8J6IcwDhuKlFGPkqU6k7iNMWRPBRu1PlmnualnNFQ69boGYOLq7rSuuG_OZmg06cQ8ZJPy37tONbV5a0FQA0ojMkmkrRxHmYw5SbYe5F3UStTTKXOu2oWOvHD4aAjO8kRDinBSx6jwNtc2oBMsj3tgosXWrIcGBVOmdRSF4L4alSOp-DcYZBtetQNOKQwRT0YP_NI0BjsACYBnBgif1J8dSwTRjkwHfp7rOVLSgZ2o">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <img class="logo" src="https://00e9e64bacf0dcd335ee1dd7dd10fedad01d787218a0af20d5-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/assets%2FFEARLogored.png?qk=AD5uMEvuEeRPvXWrIGZUCjEnw1y-d6SNmf-tyR_WzP3hKovjSEvkYnDV5Nzb6EoeKiSkJan2LSgxvwezXdPjs7gA_A7feVTuKljXf7OrzewzxKi3uEiZQxH3hmDkH332FVomVg0OV9oM6-NSQIEFPjo7zUp6BNVTrOdaxtSAsCV3y3lONFL3tYVG6y22CL1hSFODJrbZtUzAv2H6wOHGoQNVP7rloki2-0Q7iR_VPkCdH--ok6Y5OnFyay6J-5LhsAPmX0sEMFW_WBuOREDv46Qz23o6H9Fp0rsn7NgWZfHabV3XxCz88bQ8qzZhEFe4ZfnDuP6IR1VX-aE7aOfk-o_E92R2aMoYB71yR0qbuDyBR8D6Rgd0-erTmR4WcT5f8TXnqe3a3to2bbFoHrlrEoovxcBGIOMnSFaMIY-BOsEEdpb3gHJZkJ6bpxVpD59P45UvgXpyVW9q5QjBN_nUYHBNBgwFxEhP74M8pPeyIzmZ-31thWOExx423K10S1dqEbg-pE92YjeXiuSEq4I56F9BkJj2fJVQntW9LlYQ3DStqbzh9D1fj-8Ca74GVkjTuvviAdQOeoSpclLT_-1kpnun-gaQiamvnOtNFw8wM-Xnor3BDuvQu75yNUtu8rF5SxQ164YiIfvNCxHy9_9xHxu8W43NURlBo2uGr5kaIPE926wijyHAqvM08GRZ9EWdGk6mBIkp3pQGoM5Zyl2GRj5htvLpCL5EIxuvOCKZMhecQFtP_pNWe3RVvJN6VrPl0j00JYfaXGn5">
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img class="link" src="https://00e9e64bac9fac05cdeac7745875812723fef91970813a66fa-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/assets%2FNewsblack.png?qk=AD5uMEtL2REMB3YCskrFlJAk14QkdbaljDr4KcCPqUszyqirtBfRtiXBfaK9oHsJJ_-_rTD5ftupxeIqYsVhkmlfE5pv7niWqHaPD8SGJj_DB_pBgDJSoDShk-ofW7pqnJTN6oVvsCnwz8IqfEP0eyaQMmUpnmxv7LUsZGcEtagQBN6jTldW3kadCYDaAckj9VFpasyTryoK1rnVOoD-Jpr_2IcWS8g1WFc0ChkCoZ-D5yknRzq5OqxqWUmmA1lWOinMT7plUOrNHNlQ_FL5EvDc1WZ5pZ1bF8w7r1JES6FKPKHOjZqG6AQNlW3CcV_342xmd4-_-6wVvIZ204Q_4Zo5qKVUEnI-H9JsCnLltWRZrWtb3BOudj_RpWFVsHzodFp8JWrN_zUAQFbiU238gtrG42BM8NZCjsxP7_9A2qa1AqPyNE9vvBYKe8ayiHblSZOfmQ0ISi9hKVyn_FS7C7GpyYVw5PSrf7o82Q-KWHuxoaxk_XmfoNhVhSsuVnxay_Bd0KiOiRbG6amnhLOW-9S132kX0kY4pSZLqbon97CFqpwlt27g-Lq_AnNLeiuLMO4tO5NSdTVNNDFlEsZvVNFci7fyXDTp8LAewjIkzJ_oeRqO4CmyovsSw2ghqtQL9Mn_NdVRuWbRVXux_5ABKV3qKidm4atWQFmPe20Y2RDlfzLg3TWTrGIGbvH7HptTZpryemSaWWR2add5sr6nA6KPwYVhF3RQpviQKCoEhYTvj4TufcolrAVKUzS7wBHhZMzh26Utcouv"></a> 
+    <a href="#shows" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img class="link" src="https://00e9e64bac86336ffb019bb3da96a45ca965d48a438d10af67-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/assets%2FShows.png?qk=AD5uMEtYNh_EDPL_0jYPd9LJiyBWQRVisXGWAAskdvSROWY7LfuYIjv3UGr40ypZO3_r14bVId3Esg4ZlJqjPkTEa0n1JlFKVHiCGRUpkdfQrV2hhbbyhwbWIkWKpbkGxML-WnhwtFEYCNRor6DB7E1ci46qstRywLTB9AK3wfr8HYonjELhdrAvUwoFuykCnVn1BLLAsPwnP1FJdTPnOGfmXk9oakcjJyKafbeDnoF53Rd7gFQekvXG29P3DS3tL8FlyDOX4eAM6A-i15eqMnYVzDXshITAyYiqtertL9vcNw_gsjEgovZhV97JeR2gNQZNtHw2nHs_qXNp5ADrsBBKBfzgG0I331XxcwJA2j4ZHIX7I0xWsc0DcgcdtxyF_Y7py8lKwFwvb3IEZiET1ryWxjGM7hV6RJhAYs2w9wFvJ30lld4KrnU8Grf5bkYpuBghUQyiL1yUNxoWcnbtGZUo82DJsMuo0GADIb3UrlCFi0YdAUe8U8EjaVQdFBWrnqyafgN5PIHK2hviVEPzKdDIP3ngOZMIFMqBJkUFp08W3dycnl0n9dXHX-flwN9tC0np_Xv9IuzHYMvHd_aN5SlmPN8sNyaAcgb47TVGnzYggKJODzu2cjNqXKmp7RwPBAIU1vPpV8_al7glTB15yLGEP1IQyu2uq6v9suZOcMgvRTO6khirs9pZcJExNc5RZR6vz41kINlTaHxQxnW4xgIDOyFisn5kHJynHiIUJ0IwJjSYefvoTQJxIxDY5qbslMjbuXm-xuwP"></a> 
+    <a href="#videos" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img class="link" src="https://00e9e64bacfa4f985d876b9ea783f891c9a2a5d236ceed6e5f-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/assets%2FVideosblack.png?qk=AD5uMEuuW8PL4GCtSD0xLeoFL_lm_EgoRhCH47eUPspIXl0zn17R1MhESiPaqVE_A6WWk42vD0fbRywOHF9si0d5i6FBHTDxLOVeu_wUW_NDZ5SYLaipTXYJpsBR_Ya2up-d1TRyYUjj3i0Yq4B8GU2okgrlI568oPfngQnDibjcCQW9BxnJ0yCYe6hRbPJMeHYt5YtB2-xr9mGXXnWeo2KsQTdUxXjpRM4ELej3dUcwHscefKOxysmpGCuDEvGExlEYjtDLE9Zv5wZ50yUepMpCIwRaXN_aBKyVu6XFPIWdQ2MlfaZ-phXrMTB57ouJk8r2AObHS-24l6VSsm3Y_JpxZVrjao1F0WSac-pWszY79ap_M2ejE_T0wS11yIAQuuyrOxpPUpSF5gqZdgDTjZwVmoTuK7q1s9N6eD6FmYAEu7WV5GN_i7SWYVdmlBz1O6CRO8Qwi8gWtsFOG6LPdcCw1on1wuS4di_UC62vYg9RO75EvmMMUrnLA1qDWiHOIUHetBhk55Jh6PBHKCF-tJ2zKrSAQr2FTYHikYJlC30ZFxIDREn5QGnevfuSgNCVTo1bJOd2oqvAgKte3RkL2tWEYmuiSOXXp3mDPI-M0nZXpZOHRVyL6DEQkyuJLETsT0nCbzodBmm8SoYnZXl3a9ixXYo-xCdbVh6rjMz5HjSc0mppcEdLrieKT8yb4glxr51moVApGSMY4GBxXUN0GxB8v3w50l-MvilQiRUDzeNn4zan4MBHg7En7uJvW7jVxpwx0mWkf3V1"></a> 
+    <a href="#photos" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img class="link" src="https://00e9e64bac0971b933bc20b6501c25b58274213f45c32e3107-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/assets%2FPhotosblack.png?qk=AD5uMEuUJVIjQzpfJiB1XLD49ibq_t9ZBBafANdq8QDmvL77c0HEgqzMM2mOe7oVw-qoUcVNLG5qsjq34XJra8d7LWKGolpQycfK3Knpgut2BG9IIh4_Barb15Oc0psvG9CyvXIpK84tKTNBSvLb_VYs4IrSRg7GWMp04Q6i6ajtMmfmJAgi_EJYcYCIl0Csu4zJQL6RWAvqB9DoFPRQslSLvya7BwRGTeCeAhKoEJbR4pw9u-OES-6jW9GFpcNsd5vYeIGbfUT6MqIZFj9xzKEYKRElYbSM4QUAcFTN31lSUX-ap5r-gxP2WZsVldH_GSpBuFjomwiiKmifgXfaupNOzqLZ2ZhDTNq9JRYqOu2Fp-dsVNE5UKSpndohHAtQnTwrfWXleR6Z0ZNuj-Sz2sE0ek9Q2wAwhNUHSe7NdMMSfwGl8PCD3fkHTul7Gos4ZQ-FZ9sQimIZlFtkeQN2xVeqxZI_gW80Fzh4icirxIf4_Cxj5icOlXFSy-SHKekQ0GPmBA_fcoyZ5BOlP4bGTLFvRhYeDg0uuWBXyP0E0mn-QicABgxE57xUQLeSW5Moy6FJh04Z9KfNnKoUpUcZP1pDoxrxDA0D7DsvkYRVpvUzh9Yp94ryejHKa5X6fpemIix_zxmVRN7DCxK3BrErgNby4O7b1H2S5TJt2Hi_6X3kmCFmRo71LhbIbr2KBCml8d3LoogZcO2m3sRL8JDx6d8zK8DUMJapN9pMsa6_glwM_EvNd383XePoMF4FAaLggHjxboBbEDtw"></a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><img class="link" src="https://00e9e64bac2dffda81702100853cc8cbcc691cf27977cf0b3e-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/assets%2FContactblack.png?qk=AD5uMEs1s7TQl87oqNG6CDehyMH8JnTjC_wzJPA_2kGq9dvKkVRAt8d2y3oMsKzt4KnShH7O6EU9o9fsve7UmTCRMnBFKixWc2pG3q0sxWmngEiIhz4AkL1QxiLjHqtAHGIhT-m2B_kno3nqtvbePSnqeP4aB-_VdBX4wzEoLO_aijqCkzunzETS0zThYRM5f9c3v38aN-7Z3Mv1VUwlXoVQ4X9LhjlUbF4pJVrtXn6hvb3MdctBvEGjatzuZDRXuZRqBQX4QU10ChRHcbpcvwNRJZmQ7KAKQISiWPydQgtFkdCbaHAw7TeYntVgQlC4wwA6qRfTHEBG2F6tORNGPr6zzf1yVJZEyoinIcwF4Q_gMegx9s62x70JeDx_BG7ME8GEX5CmavMKgljdwgeweyDjGeVftFDULVpMVMpi66cEynIk_XtgqUB44t_fcFSM8ZPRrSe9lvwLOMtFHpR7Qnix_nDV-EF1B3ks3Vrt6sSC9it12dieWIDzfyIpkjP3RsRje528d5-iIg4MrRc95D3VBByBENhudY9O9HXfd4boy2ip8fxPuxNvRQhh-4Kv8pI1Mlz_h3JGt8nORvpoSSCRZu8lGFKKnJ8aWcm-32-cvZkZmyIRczisxiGVbxPzUxIvyaKob3ncS_ldL7vA-PTHmcG5jN1cJx_TchTxyKxxMyrH-xhGoYJpzE32yvrKz3z7WWWP4Jb60pZeliFRBGYbdjg1coUpMiZvlchLPKGAcdRLDjvxtqFXYo07Iyt2Ah7RVMVJYJsU"></a> 
+    <a href="http://www.atomageindustries.com/collections/fear" target="_blank" class="w3-bar-item w3-button w3-hover-white"><img class="link" src="https://00e9e64bacf45da547af8b2e8df05f1b9c46d79e0d9122b655-apidata.googleusercontent.com/download/storage/v1/b/ryankojan_fear_web_app/o/assets%2FMerchblack.png?qk=AD5uMEvfXJIxf3U53Ry2F-O1SBOyR003N-7GPrn61qU5iS4I2O3R0X4wbVt0scmRzXDL8Bljk2XqxjVupLfvQbXtziR0K56Jc5KwTaQ9Vd7EG8UA8X3W1aTBzMdjVcKkl8n5eiH6nBiDmoY1VkQW-3oyS814PMpbM4y-knp-hg3HYnOS7mgQGQby05XfJ2x_0driZEni6rDvLnX3hvd1W-62SHC8DzU3VGzYnABmshgevPYa6EdRMf_iNehzF3TbvIwPC1JYOOlo6fkNhJffG7WP-Ql8wgxqRGKU2Zk2A_rwfQSPIvNh6rYlkRum2XUQKLUSXlBP2m8kBV1fsdj1TT5SFBfHhPK97-WacVUNkISmzwY9iS8D-VUEjSkZypkwreiw2AxCBp97deT9C1HhgsLf9QcZ7kfT0Ys5xoYy64lB6bfbat5lWJ2o9-NP4iKJqq4Ck6fLKH87O-otyCChoIHTUmVs6DfdeJMfdbE33GCHSFkFe8N3D1U0zXHNpT9mWZRt-5eXiXMoZlYSW3XHVAu7MIWo386B1l_XyD6el3aSS7iDCDRwXZ_GngaCozTrI4o-L1impDzPraC2Udzqtp5wCvQXIXEzQ3vWKcukRz016TqJCtNCijOqe-ThOcol0DYxz4QMO18LzDL1CqimdEyZY6uUCv_pMfLCFUIeHSu9Um-mBi24UrhtzoHKuXWdr87YjC43mcQyqe9g8VxsOc8DgFU-cFtKs-sO6XySG0x5fhxrgX4sTseD7BOqoHRzusDTldwEhOpl"></a>
+  </div>
+
+  <div class="social-media"> 
+    <span><a href="https://www.instagram.com/fearleevingofficial/" target="new"><img width="30" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"></a></span>
+    <span><a href="https://www.facebook.com/FEARtheband/" target="new"><img width="30" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a></span>
+    <span><a href="https://twitter.com/FEARLeeVing" target="new"><img width="30" src="https://blogs.library.duke.edu/rubenstein/files/2014/04/twitter-icon.png"></a></span>
+    <span><a href="https://open.spotify.com/artist/0hPU1czS0JdstuT8VRtBPS"><img width="30" src="https://images-na.ssl-images-amazon.com/images/I/51rttY7a%2B9L.png"></a></span>
+</div>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="X" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <div class="w3-container" style="margin-top:80px" id="news">
+    <h1 class="w3-jumbo header"><b>News</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <div class="twitter">
+      <a class="twitter-timeline" data-height="200" data-theme="dark" data-width="75%" data-tweet-limit="5" href="https://twitter.com/FEARLeeVing?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  </div>
+  
+  <div class="w3-container" id="shows" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Shows</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <table class="w3-table-all shows">
+      <tr>
+        <th>Date</th>
+        <th>Venue</th>
+        <th>City</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Dec 30, 2017 - 11:30PM</td>
+        <td>Decibel Bar </td>
+        <td>Setubal, Portugal</td>
+        <td> <a href="#" class="w3-button w3-red">TICKETS</a> </td>
+      </tr>
+      <tr>
+        <td>Jan 11, 2018 - 6:00PM</td>
+        <td>Studio Coast</td>
+        <td>Tokyo, Japan</td>
+        <td> <a href="#" class="w3-button w3-red">TICKETS</a> </td>
+      </tr>
+      <tr>
+        <td>Jan 13, 2018 - 11:30PM</td>
+        <td>Chopper Bar</td>
+        <td>Carregado, Portugal</td>
+        <td> <a href="#" class="w3-button w3-red">TICKETS</a> </td>
+      </tr>
+      <tr>
+        <td>Jan 26, 2018 - 11:30PM</td>
+        <td>+operario</td>
+        <td>Marinha Grande, Portugal</td>
+        <td> <a href="#" class="w3-button w3-red">TICKETS</a> </td>
+      </tr>
+      <tr>
+        <td>Mar 01, 2018 - 6:15PM</td>
+        <td>Kashiwa PALOOZA</td>
+        <td>Chiba, Japan</td>
+        <td> <a href="#" class="w3-button w3-red">TICKETS</a> </td>
+      </tr>
+      <tr>
+        <td>Mar 02, 2018 - 7:00PM</td>
+        <td>Mito Light House</td>
+        <td>Ibaraki, Japan</td>
+        <td> <a href="#" class="w3-button w3-red">TICKETS</a> </td>
+      </tr>
+      </table>
+  </div>
+  
+  <div class="w3-container" id="videos" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Videos</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/Frud5RFtTi0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CjaZUmGLUG8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <div class="w3-container" id="photos" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Photos</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="https://img.wennermedia.com/article-leads-horizontal/rs-208714-john-and-lee.jpg" style="width:100%">
+      <img class="mySlides" src="https://i.pinimg.com/originals/e3/a1/12/e3a112d0bb3b640de1840e2e485f3b7c.jpg" style="width:100%">
+      <img class="mySlides" src="http://theconcertdatabase.com/sites/theconcertdatabase.com/files/fear.jpg" style="width:100%">
+      <img class="mySlides" src="http://www.mediaspin.com/punks/fear17.jpg"  style="width:100%">
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+  </div>
+  
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-white"><b>Contact</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">  
+    <h4 class="w3-text-white">Email List</h4>  
+    <input type="text" placeholder="123@abc.com">  <a href="#" class="w3-button w3-red">SIGN UP</a>
+
+  </div>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
